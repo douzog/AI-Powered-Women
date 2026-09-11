@@ -1,0 +1,11 @@
+# datasets and downloaded weights
+data/
+
+# build artefacts
+build/
+
+# notebook noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
