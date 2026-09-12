@@ -12,6 +12,8 @@
   - Labels for the task: 0 is cat, 1 is dog
   - Convolution one step at a time: worked out by hand, checked against `F.conv2d`, and animated as a GIF
 - `AI-Powered-Women.key`: Keynote slides for the short lecture that opens the session
+- `Convolutional Neural Networks.html`: the lecture slides as a single HTML file
+- `present.py`: serves those slides on localhost for presenting full screen
 - `.vscode/settings.json`: shows the notebook's text in the Urbanist font
 
 ## Running the notebook
@@ -24,3 +26,10 @@
   ```
 
 - The first image cell downloads the Urbanist font into `data/fonts/` for the plot titles
+
+## Presenting the slides
+
+- Run `python3 present.py` and it opens http://localhost:8000 in the browser
+- Press F or double-click for fullscreen; arrows, Space, Home and End move between slides
+- The slide number stays in the address, so a reload lands on the same slide
+- Nothing loads from the internet, so it works without Wi-Fi
