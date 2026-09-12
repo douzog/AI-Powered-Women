@@ -4,6 +4,9 @@ data/
 # build artefacts
 build/
 
+# earlier notebook drafts, kept locally only
+Archive/
+
 # notebook noise
 .ipynb_checkpoints/
 __pycache__/
