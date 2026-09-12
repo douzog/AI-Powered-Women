@@ -24,9 +24,3 @@
   ```
 
 - The first image cell downloads the Urbanist font into `data/fonts/` for the plot titles
-
-## Not tracked by git
-
-- `data/`: the dataset, the font, and the GIF the convolution cell saves
-- `build/`: local build artefacts
-- `Archive/`: earlier drafts, kept locally only
